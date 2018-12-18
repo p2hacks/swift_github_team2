@@ -10,6 +10,9 @@ import UIKit
 
 class View1Controller: UIViewController {
 
+    @IBAction func changeButton(){
+    view.backgroundColor = UIColor.orange
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
